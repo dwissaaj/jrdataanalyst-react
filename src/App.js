@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
+import PageOne from './page/PageOne';
+import { Routes, Route} from 'react-router-dom'
+import PageTwo from './page/PageTwo';
+import PowerBI from './page/PowerBi';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='divApp'>
+        <Routes>
+          <Route path='/' element={<PageOne/>} />
+          <Route path='/certification' element={<PageTwo/>} />
+          <Route path='/powerbi' element={<PowerBI/>}/>
+        </Routes>
     </div>
   );
 }

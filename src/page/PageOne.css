@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+.navPort{
+    font-family: 'Bungee';
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navCon{
+    padding: 5px;
+    background-color: #383838;
+    height: 100%;
+    
+}
+
+.navDiv{
+    margin-left:auto;
+    margin-right:0;
+}
+
+.introImg{
+    max-height:100%; max-width:100%;
+}
+
+.imgProfile{
+    object-fit: contain;
+    margin-top: 0;
+}
