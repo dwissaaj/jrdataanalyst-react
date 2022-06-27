@@ -23,15 +23,7 @@ const styleSubtitle = {
     fontFamily:'Bungee',
     
 }
-const styleBox = {
-    width : 300,
-    marginBottom:'10px'
-}
-const styleConBox = {
-    width : '400px',
-    height : '100%'
 
-}
 const imgBox = {
     width : '200px',
     height : '100%',

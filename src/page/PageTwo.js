@@ -1,15 +1,10 @@
-import { Container,Typography,Stack,Button,Grid } from "@mui/material";
+import { Container,Button,Grid } from "@mui/material";
 import {Link} from 'react-router-dom'
-import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import ArticleCard from "./ArticleCard";
 import reactlogo from '../card/reactlogo.png'
 import python from '../card/python.png'
