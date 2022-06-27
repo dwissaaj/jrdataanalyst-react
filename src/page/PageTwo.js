@@ -61,7 +61,7 @@ const PageTwo = () => {
                 <Link to='/'>
                     <Button sx={btnDown}>GO BACK</Button>
                 </Link>
-                <a style={{ textDecoration: 'none' }} href="https://drive.google.com/uc?export=download&id=17Gaaejv_3d4AXLxZYNpxp8sfqIv7DjFw"><Button sx={btnDown}>DOWNLOAD CV</Button></a>
+                <a style={{ textDecoration: 'none' }} href="https://drive.google.com/uc?export=download&id=16-PAv94hO6rg_sICZj21GGv7FYqpMuYk"><Button sx={btnDown}>DOWNLOAD CV</Button></a>
             </Grid>
             <Grid>
                 <Swiper
